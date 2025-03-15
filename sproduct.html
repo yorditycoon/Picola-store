@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PicolaStore</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/6df99a15bc.js" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+    <section id="header">
+        <a href="index.html"><img src="images/logo.png.png" class="logo"alt=""></a> 
+        
+     <div>
+         <ul id="navbar">
+             <li><a href="index.html">Home</a></li>
+             <li><a href="shop.html">Shop</a></li>
+             <li><a href="blog.html">Blog</a></li>
+             <li><a href="about.html">About</a></li>
+             <li><a href="cart.html" ><i class="fa-solid fa-cart-shopping" quantity="1"></i></a>
+                <span>0</span></li>   
+         </ul>
+     </div>
+        </section>
+
+<section id="prodetails" class="section-p1"> 
+<div class="single-pro-image"> 
+    <img src="images/neck 1.jpg" width="100%" id="mainimg" alt="">
+<div class="small-img-group">
+ <div class="small-img-col">
+ <img src="images/neck 1.jpg" width="100%" class="small-img" alt="">
+ </div>
+ <div class="small-img-col">
+ <img src="images/neck 2.webp" width="100%" class="small-img" alt="">
+  </div>
+  <div class="small-img-col">
+    <img src="images/neck 3.webp" width="100%" class="small-img" alt="">
+</div>
+<div class="small-img-col">
+<img src="images/neck 4.jpg" width="100%" class="small-img" alt="">
+ </div>
+ </div>
+</div>
+<div class="single-pro-details">
+<h6>Home/Necklace</h6>
+<h4>women necklace</h4>
+<h2>$25.00</h2>
+<select>
+    <option>select size</option>
+    <option>XL</option>
+    <option>XXL</option>
+    <option>Small</option>
+    <option>Large</option>
+</select>
+<input type="number" value="1">
+<button>Add To Cart</button>
+<h4>Product Details</h4>
+<span>Imaginarygam Stainless Steel Pink Zircon Heart Necklace
+     Imaginarygam Stainless Steel Pink Zircon Heart Necklace Imaginarygam Stainless Steel Pink Zircon Heart Necklace
+     Imaginarygam Stainless Steel Pink Zircon Heart Necklace For Women</span>
+
+</div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
+   <footer>
+    <div class="container">
+        <div class="sec aboutus">
+            <h4>About Us</h4>
+            <p>Picola store has carefully chosen pieces
+                 like bracelets, necklaces, rings,
+                  and more that add unique style 
+                  to any occasion.</p>
+                  <ul class="sci">
+                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                    <li><a href="https://www.instagram.com/picola_store/"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-tiktok"></i></a></li>
+                  </ul>
+        </div>
+        <div class="sec quicklinks"> 
+            <h4>support</h4>
+        <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="Returnandexchange.html">Return and exchange</a></li>
+            <li><a href="#">help</a></li>
+        </ul>
+    </div>
+        <div class="sec quicklinks"> 
+            <h4>shop</h4>
+            <ul>
+                <li><a href="necklace.html">necklaces</a></li>
+                <li><a href="ring.html">Ring</a></li>
+                <li><a href="bracelet.html">bracelet</a></li>
+                <li><a href="earing.html">Earing</a></li>
+            </ul>
+        </div>
+        <div class="sec contact"> 
+             <h4>contact us</h4>
+            <ul class="info">
+                <li>
+                    <span><i class="fa-solid fa-phone"></i>
+                    </span>
+                    <p><a href="tel:+00000000">0000000000</a></p>
+                </li>
+                <li>
+                <span><i class="fa-solid fa-envelope"></i>
+                </span>
+                <p><a href="mailto:picolastore1@gmail.com">PicolaStore1@gmail.com</a></p>
+            </li>
+            </ul>
+        </div>
+    </div>
+   </footer>
+   <div class="copyrighttext">
+    <p>2024 picolastore.com Allright Recived</p>
+   </div>
+   <script>
+    var mainimg = document.getElementById("mainimg");
+    var smallimg = document.getElementsByClassName("small-img");
+    smallimg[0].onclick = function(){
+        mainimg.src = smallimg[0].src;
+    }
+    smallimg[1].onclick = function(){
+        mainimg.src = smallimg[1].src;
+    }
+    smallimg[2].onclick = function(){
+        mainimg.src = smallimg[2].src;
+    }
+    smallimg[3].onclick = function(){
+        mainimg.src = smallimg[3].src;
+    }
+   </script>
+<script src="index.js"></script>
+</body>
+</html>
